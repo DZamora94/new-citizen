@@ -1,0 +1,18 @@
+@import '../../../scss/variables.scss';
+
+.header-container {
+  display: flex;
+  padding: 10px 50px;
+  height: 40px;
+  background-color: $white;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    .logo-img {
+      padding-left: 10px;
+      width: 30px;
+    }
+  }
+}
