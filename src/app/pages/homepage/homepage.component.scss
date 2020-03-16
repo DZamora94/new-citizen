@@ -1,0 +1,19 @@
+.img-background {
+  background-image: url('../../../assets/img/background-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: cover;
+  padding: 5%;
+
+  .text-container {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    color: white;
+    width: 30%;
+    line-height: 0.9;
+
+    .title {
+      padding-bottom: 10px;
+    }
+  }
+}
