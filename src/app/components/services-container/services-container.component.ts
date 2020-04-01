@@ -8,26 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ServicesContainerComponent implements OnInit {
 
-  @Input() serviceButtons: ServiceButton[] = [
-    {
-      label: 'Work',
-      color: 'primary',
-      image: 'assets/icon/work.svg',
-      redirection: 'services/work',
-    },
-    {
-      label: 'Home',
-      color: 'primary',
-      image: 'assets/icon/home.svg',
-      redirection: 'services/home',
-    },
-    {
-      label: 'Taxes',
-      color: 'primary',
-      image: 'assets/icon/fingerprint.svg',
-      redirection: 'services/taxes',
-    }
-  ];
+  @Input() title: string;
+  @Input() serviceButtons: ServiceButton[];
 
   constructor() { }
 

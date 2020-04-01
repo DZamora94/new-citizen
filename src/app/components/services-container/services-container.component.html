@@ -1,5 +1,8 @@
-<div class="justify-center">
-  <div class="services-container justify-center">
-    <app-service-btn *ngFor="let button of serviceButtons" [button]="button"></app-service-btn>
+<div class="services-container">
+  <div class="content">
+    <div class="title">{{title}}</div>
+    <div class="service-btns-container">
+      <app-service-btn *ngFor="let button of serviceButtons" [button]="button"></app-service-btn>
+    </div>
   </div>
 </div>

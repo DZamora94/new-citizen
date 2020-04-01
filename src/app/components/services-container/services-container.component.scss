@@ -1,7 +1,27 @@
+@import '../../../scss/mixins.scss';
+
 .services-container {
-    border: 1px solid black;
-    border-radius: 75px;
-    display: inline-flex;
-    padding: 20px;
-    margin: 50px;
+    display: flex;
+    justify-content: center;
+
+    .content {
+        display: inline-flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 25px;
+        padding: 25px;
+        margin: 50px;
+        
+        .title {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 40px;
+            @include title-font;
+        }
+        
+        .service-btns-container {
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
