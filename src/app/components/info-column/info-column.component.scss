@@ -1,0 +1,11 @@
+.infoset-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 2rem;
+    box-sizing: border-box;
+
+    .divider {
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,11 @@
+@import '../../../scss/mixins.scss';
+
+.info-container {
+    .icon {
+        padding-right: 1rem;
+    }
+    .title {
+        @include subtitle-font;
+        padding-bottom: 1rem;
+    }
+}
