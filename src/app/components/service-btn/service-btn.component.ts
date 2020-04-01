@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ServiceButton } from 'src/app/models/buttons';
 
 @Component({
   selector: 'app-service-btn',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./service-btn.component.scss']
 })
 export class ServiceBtnComponent implements OnInit {
+
+  @Input() button: ServiceButton;
 
   constructor() { }
 

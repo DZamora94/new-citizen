@@ -1,3 +1,5 @@
-<p>
-  services-container works!
-</p>
+<div class="justify-center">
+  <div class="services-container justify-center">
+    <app-service-btn *ngFor="let button of serviceButtons" [button]="button"></app-service-btn>
+  </div>
+</div>
