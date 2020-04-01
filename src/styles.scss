@@ -68,3 +68,5 @@ $new-citizen-theme: mat-light-theme($new-citizen-primary, $new-citizen-accent, $
 html { background-color: $light-grey; }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+section { margin: 2rem 3rem; }

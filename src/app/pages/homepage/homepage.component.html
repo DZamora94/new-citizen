@@ -9,4 +9,9 @@
     </div>
   </div>
 </div>
-<app-services-container></app-services-container>
+<section>
+  <app-services-container [title]="'Your services'" [serviceButtons]="serviceButtons"></app-services-container>
+</section>
+<section>
+  <app-info-column-container [image]="'assets/img/background-2.jpg'" [infoSet]="infoSet"></app-info-column-container>
+</section>
