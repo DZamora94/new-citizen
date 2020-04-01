@@ -1,0 +1,42 @@
+@import '../scss/variables.scss';
+@import '../scss/mixins.scss';
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
+    color: $blue-text;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+
+.link {
+    color: $link;
+    cursor: pointer;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w33 {
+    width: 33%;
+}
+
+.mat-fab.mat-primary,
+.mat-flat-button.mat-primary,
+.mat-mini-fab.mat-primary,
+.mat-raised-button.mat-primary {
+    background-color: $blue-text;
+}
+
+.pink {
+    color: $fingopay-pink;
+}
+
+.blue-background {
+    background-color: $fingopay-blue;
+}

@@ -1,0 +1,46 @@
+@import '../scss/variables.scss';
+
+
+@mixin setMaxWidth {
+    width: 100%;
+    max-width: 1024px;
+}
+
+@mixin desktop {
+    @media screen and (min-width: $tablet) {
+        @content        
+    }
+};
+
+@mixin title-font {
+    font-size: 24px;
+    font-weight: bold;
+
+    @include desktop {
+        font-size: 30px;
+    }
+}
+
+@mixin subtitle-font {
+    font-size: 16px;
+
+    @include desktop {
+        font-size: 20px;
+    }
+}
+
+@mixin detail-font {
+    font-size: 14px;
+    
+    @include desktop {
+        font-size: 16px;
+    }
+}
+
+@mixin mini-font {
+    font-size: 12px;
+
+    @include desktop {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,38 @@
+@import '../scss/mixins.scss';
+
+.bold {
+    font-weight: bold;
+}
+
+.title-font {
+    font-size: 24px;
+    font-weight: bold;
+
+    @include desktop {
+        font-size: 30px;
+    }
+}
+
+.subtitle-font {
+    font-size: 16px;
+
+    @include desktop {
+        font-size: 20px;
+    }
+}
+
+.detail-font {
+    font-size: 14px;
+    
+    @include desktop {
+        font-size: 16px;
+    }
+}
+
+.mini-font {
+    font-size: 12px;
+
+    @include desktop {
+        font-size: 14px;
+    }
+}

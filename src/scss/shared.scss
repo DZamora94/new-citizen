@@ -1,0 +1,169 @@
+
+.white {
+    color: white;
+}
+
+.bg-grey {
+    background-color: $background-grey;
+}
+
+.bg-blue {
+    background-color: $dark-blue;
+}
+
+.btn {
+    color: white;
+    border-radius: 25px !important;
+    font-size: 16px;
+    padding: 5px 15px !important;
+}
+
+.pink-btn {
+    background-color: $fingopay-pink;
+    &:disabled {
+        color: $white !important;
+        background-color: $fingopay-pink !important;
+        filter: opacity(0.4);
+    }
+}
+
+.blue-btn {
+    background-color: $fingopay-blue;
+    &:disabled {
+        color: $white !important;
+        background-color: $fingopay-blue !important;
+        filter: opacity(0.4);
+    }
+}
+
+.blue-btn-pink-border {
+    background-color: $fingopay-blue;
+    padding: 3px !important;
+    border: 2px solid $fingopay-pink !important;
+    &:disabled {
+        color: $white !important;
+        background-color: $fingopay-blue !important;
+        filter: opacity(0.4);
+    }
+}
+
+.button-container {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+
+    & > button {
+        width: 100%;
+        margin-bottom: 10px;
+
+        @include desktop {
+            max-width: 530px;
+        }
+    }
+}
+
+.black {
+    color: black !important;
+}
+
+.red {
+    color: red !important;
+}
+
+.main-container {
+    display: block;
+    max-width: 1200px;
+    padding:20px;
+    box-sizing: border-box;
+    margin: auto;
+
+    @include desktop {
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 15%;
+        justify-content: center;
+    }
+
+    @include setMaxWidth;
+}
+
+.main-button {
+    @include setMaxWidth;
+}
+
+.mobile-menu {
+    display: block;
+    height: 70px;
+}
+
+.steps-icon {
+    padding: 10% 0;
+
+    @include desktop {
+        width: 420px;
+    }
+}
+
+.fingopay-logo {
+    height: auto;
+    width: 130px;
+    padding: 25px;
+}
+
+.content-button-bottom {
+    padding-bottom: 80px;
+
+    @include desktop {
+        padding-bottom: 0;
+    }
+}
+
+.content-two-button-bottom {
+    padding-bottom: 140px;
+
+    @include desktop {
+        padding-bottom: 0;
+    }
+}
+
+.button-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 20px;
+
+    @include desktop {
+        position: static;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+.all-you-need-background {
+    background-image: url(/assets/img/main-images/All-you-need-is-you.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50%;
+
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+    }
+}
+
+.all-you-need-background-only-desktop {
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url(/assets/img/main-images/All-you-need-is-you.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+}

@@ -1,5 +1,12 @@
-@import './scss/variables.scss';
-@import './scss/fonts.scss';
+@import "../src/scss/padding.scss";
+@import "../src/scss/margin.scss";
+@import "../src/scss/font.scss";
+@import "../src/scss/flex.scss";
+@import "../src/scss/classes.scss";
+@import "../src/scss/shared.scss";
+@import "../src/scss/helpers.scss";
+@import "../src/scss/variables.scss";
+@import "../src/scss/mixins.scss";
 
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
